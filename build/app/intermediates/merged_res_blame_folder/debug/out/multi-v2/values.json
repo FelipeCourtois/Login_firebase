@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/felipecourtois/app_firebase/firebase_app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/felipecourtois/Documentos/Login_firebase/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/felipecourtois/.gradle/caches/transforms-2/files-2.1/14b93615368c2249f1830e26ca064ab5/core-1.6.0/res/values/values.xml",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/felipecourtois/app_firebase/firebase_app/build/app/generated/res/google-services/debug/values/values.xml",
+                    "source": "/home/felipecourtois/Documentos/Login_firebase/build/app/generated/res/google-services/debug/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -57,24 +57,7 @@
                     }
                 },
                 {
-                    "source": "/home/felipecourtois/.gradle/caches/transforms-2/files-2.1/0c11252d9d87559920ca1b1a0bcd2692/jetified-play-services-basement-17.1.0/res/values/values.xml",
-                    "from": {
-                        "startLines": "4,7",
-                        "startColumns": "0,0",
-                        "startOffsets": "238,401",
-                        "endColumns": "63,166",
-                        "endOffsets": "301,567"
-                    },
-                    "to": {
-                        "startLines": "106,116",
-                        "startColumns": "4,4",
-                        "startOffsets": "6495,7673",
-                        "endColumns": "67,166",
-                        "endOffsets": "6558,7835"
-                    }
-                },
-                {
-                    "source": "/home/felipecourtois/app_firebase/firebase_app/android/app/src/main/res/values/styles.xml",
+                    "source": "/home/felipecourtois/Documentos/Login_firebase/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -90,6 +73,23 @@
                         "endLines": "138,141",
                         "endColumns": "12,12",
                         "endOffsets": "10081,10250"
+                    }
+                },
+                {
+                    "source": "/home/felipecourtois/.gradle/caches/transforms-2/files-2.1/0c11252d9d87559920ca1b1a0bcd2692/jetified-play-services-basement-17.1.0/res/values/values.xml",
+                    "from": {
+                        "startLines": "4,7",
+                        "startColumns": "0,0",
+                        "startOffsets": "238,401",
+                        "endColumns": "63,166",
+                        "endOffsets": "301,567"
+                    },
+                    "to": {
+                        "startLines": "106,116",
+                        "startColumns": "4,4",
+                        "startOffsets": "6495,7673",
+                        "endColumns": "67,166",
+                        "endOffsets": "6558,7835"
                     }
                 },
                 {

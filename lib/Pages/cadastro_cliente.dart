@@ -89,7 +89,7 @@ class _LoginScreenState extends State<LoginScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const Text(
-              "Costura 4.0",
+              "Smart List",
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 28.0,
