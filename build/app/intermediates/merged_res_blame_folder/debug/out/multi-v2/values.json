@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/felipecourtois/Documentos/Login_firebase/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/felipecourtois/Documentos/Projetos/Login_firebase/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/felipecourtois/.gradle/caches/transforms-2/files-2.1/14b93615368c2249f1830e26ca064ab5/core-1.6.0/res/values/values.xml",
@@ -23,23 +23,6 @@
                     }
                 },
                 {
-                    "source": "/home/felipecourtois/Documentos/Login_firebase/build/app/generated/res/google-services/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,722",
-                        "endColumns": "143,81,103,108,119,107,84",
-                        "endOffsets": "194,276,380,489,609,717,802"
-                    },
-                    "to": {
-                        "startLines": "126,127,128,129,130,131,132",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "8966,9110,9192,9296,9405,9525,9633",
-                        "endColumns": "143,81,103,108,119,107,84",
-                        "endOffsets": "9105,9187,9291,9400,9520,9628,9713"
-                    }
-                },
-                {
                     "source": "/home/felipecourtois/.gradle/caches/transforms-2/files-2.1/ec20f7242759cfe0d6237ced59ef1a02/browser-1.0.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
@@ -57,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "/home/felipecourtois/Documentos/Login_firebase/android/app/src/main/res/values/styles.xml",
+                    "source": "/home/felipecourtois/Documentos/Projetos/Login_firebase/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -73,6 +56,23 @@
                         "endLines": "138,141",
                         "endColumns": "12,12",
                         "endOffsets": "10081,10250"
+                    }
+                },
+                {
+                    "source": "/home/felipecourtois/Documentos/Projetos/Login_firebase/build/app/generated/res/google-services/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,722",
+                        "endColumns": "143,81,103,108,119,107,84",
+                        "endOffsets": "194,276,380,489,609,717,802"
+                    },
+                    "to": {
+                        "startLines": "126,127,128,129,130,131,132",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "8966,9110,9192,9296,9405,9525,9633",
+                        "endColumns": "143,81,103,108,119,107,84",
+                        "endOffsets": "9105,9187,9291,9400,9520,9628,9713"
                     }
                 },
                 {

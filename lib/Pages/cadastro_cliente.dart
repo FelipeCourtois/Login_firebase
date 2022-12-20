@@ -1,12 +1,13 @@
-import 'package:firebase_app/profile_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
+import '../profile_screen.dart';
+
 Future main() async {
-WidgetsFlutterBinding.ensureInitialized();
-await Firebase.initializeApp();
-  runApp( MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: HomePage(),
     );
   }
@@ -28,7 +29,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  
   Future<FirebaseApp> _initializeFirebase() async {
     FirebaseApp firebaseApp = await Firebase.initializeApp();
     return firebaseApp;
@@ -141,11 +141,15 @@ class _LoginScreenState extends State<LoginScreen> {
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular((12.0))),
                 onPressed: () async {
-User? user = await loginUsingEmailPassword(email: _emailController.text, password: _passwordController.text, context: context);
-print(user);
-if(user != null){
-  Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context)=> ProfileScreen()));
-}
+                  User? user = await loginUsingEmailPassword(
+                      email: _emailController.text,
+                      password: _passwordController.text,
+                      context: context);
+                  print(user);
+                  if (user != null) {
+                    Navigator.of(context).pushReplacement(MaterialPageRoute(
+                        builder: (context) => ProfileScreen()));
+                  }
                 },
                 child: const Text(
                   "Login",

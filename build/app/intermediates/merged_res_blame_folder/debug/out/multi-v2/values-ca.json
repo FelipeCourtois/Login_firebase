@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/felipecourtois/Documentos/Login_firebase/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml",
+            "outputFile": "/home/felipecourtois/Documentos/Projetos/Login_firebase/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml",
             "map": [
                 {
                     "source": "/home/felipecourtois/.gradle/caches/transforms-2/files-2.1/0c11252d9d87559920ca1b1a0bcd2692/jetified-play-services-basement-17.1.0/res/values-ca/values.xml",

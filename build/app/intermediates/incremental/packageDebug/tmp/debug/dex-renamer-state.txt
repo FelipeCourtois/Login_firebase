@@ -1,4 +1,4 @@
-#Tue May 03 10:17:14 BRT 2022
-base.0=/home/felipecourtois/Documentos/Login_firebase/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Tue Dec 20 14:21:33 BRT 2022
+base.0=/home/felipecourtois/Documentos/Projetos/Login_firebase/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
